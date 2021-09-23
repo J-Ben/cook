@@ -54,3 +54,143 @@ CRITICAL - 2021-09-23 04:45:34 --> Invalid file: recette_add.php
 #6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2021-09-23 05:07:34 --> Invalid file: recette_add.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_add.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_add', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(14): view('recette_add')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->add()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:09:43 --> Invalid file: recette_add.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_add.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_add', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(9): view('recette_add')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->index()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:09:52 --> Invalid file: recette_add.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_add.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_add', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(14): view('recette_add')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->add()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:10:04 --> Invalid file: recette_add.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_add.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_add', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(9): view('recette_add')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->index()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:10:37 --> Invalid file: recette_all.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_all.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_all', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(19): view('recette_all')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->all()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:11:04 --> Invalid file: recette_all.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_all.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_all', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(19): view('recette_all')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->all()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:11:37 --> Invalid file: recette_add.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_add.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_add', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(9): view('recette_add')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->index()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:11:54 --> Invalid file: recette_all.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_all.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_all', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(19): view('recette_all')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->all()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:13:58 --> Invalid file: recette_all.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_all.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_all', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(19): view('recette_all')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->all()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:16:18 --> Invalid file: recette_all.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_all.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_all', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(19): view('recette_all')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->all()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:16:25 --> Invalid file: recette_all.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_all.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_all', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(19): view('recette_all')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->all()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:17:11 --> Invalid file: recette_all.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_all.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_all', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(19): view('recette_all')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->all()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:17:37 --> Invalid file: recette_all.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_all.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_all', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(19): view('recette_all')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->all()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-23 05:17:41 --> Invalid file: recette_add.php
+#0 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recette_add.php')
+#1 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette_add', Array, true)
+#2 C:\xampp\htdocs\cook\app\Controllers\Recette.php(9): view('recette_add')
+#3 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->index()
+#4 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#5 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cook\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

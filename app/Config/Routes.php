@@ -34,17 +34,17 @@ $routes->setAutoRoute(true);
 
 $routes->get('/', 'Recette::index');
 $routes->get('recette', 'Recette::index');
-$routes->get('recette/all', 'Recette::index');
+$routes->get('recette/all', 'Recette::all');
 
 $routes->get('ingredient', 'Ingredient::index');
-$routes->get('ingredient/all', 'Ingredient::index');
+$routes->get('ingredient/all', 'Ingredient::all');
 
 /**
  * 
  *  Routes de Recette
  */
 
-$routes->group('Recette', function($routes){
+$routes->group('recette', function($routes){
 	$routes->add('add','Recette::index'); 
 	$routes->add('all','Recette::all');  
 });
@@ -54,7 +54,7 @@ $routes->group('Recette', function($routes){
  *  Routes de Ingredient
  */
 
-$routes->group('Ingredient', function($routes){
+$routes->group('ingredient', function($routes){
 	$routes->add('add','Ingredient::index'); 
 	$routes->add('all','Ingredient::all');  
 });

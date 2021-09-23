@@ -4,18 +4,18 @@ namespace App\Controllers;
 
 class Recette extends BaseController
 {
-    public function index($page_title=null,$nom_reseau=null)
+    public function index()
     { 
-        echo view('recette_add'); 
+        echo view('recette/recette_add'); 
     }
 
     public function add()
     { 
-        echo view('recette_add'); 
+        echo view('recette/recette_add'); 
     }
 
     public function all()
     { 
-        echo view('recette_all'); 
+        echo view('recette/recette_all'); 
     }
 }

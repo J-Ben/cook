@@ -1,5 +1,5 @@
-<?= $this->include("../templates/header") ?>
+<?= $this->include("/ingredient/templates/header") ?>
 
 
 
-<?= $this->include("../templates/footer") ?>
+<?= $this->include("/ingredient/templates/footer") ?>
