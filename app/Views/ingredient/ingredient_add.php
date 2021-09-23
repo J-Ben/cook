@@ -5,6 +5,15 @@
   <p>Formulaire d'<code>ajout</code> d'ingredient.</p>
   
   <form action="" class="needs-validation" novalidate>
+      <div class="form-group">
+      <label for="sel1">Recette de votre choix :</label>
+      <select class="form-control" id="sel1" name="sellist1">
+        <option>Cassoulet</option>
+        <option>Tortilla</option>
+        <option>Maffé</option>
+        <option>Alloco</option>
+      </select>
+      </div>
     <div class="form-group">
       <label for="nom_ingredient">Nom :</label>
       <input type="text" class="form-control" id="nom_ingredient" placeholder="Entrez le nom de l'ingrédient" name="nom_ingredient" required>
