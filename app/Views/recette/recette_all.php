@@ -3,7 +3,7 @@
 <body>
 
 <div class="container">
-  <h2>INGREDIENTS Table</h2>
+  <h2>RECETTE Table</h2>
   <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
   <table class="table">
     <thead>
