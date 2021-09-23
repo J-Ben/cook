@@ -7,7 +7,7 @@
   <form action="" class="needs-validation" novalidate>
       <div class="form-group">
       <label for="sel1">Recette de votre choix :</label>
-      <select class="form-control" id="sel1" name="sellist1">
+      <select class="form-control" id="id_recette" name="id_recette">
         <option>Cassoulet</option>
         <option>Tortilla</option>
         <option>Maffé</option>
@@ -22,13 +22,13 @@
     </div>
     <div class="form-group">
       <label for="type_ingredient">Type :</label>
-      <input type="text" class="form-control" id="type_ingredient" placeholder="Entrez une quantité (g)" name="type_ingredient" required>
+      <input type="text" class="form-control" id="type_ingredient" placeholder="Ex (poudre, liquide, écrasé, etc)" name="type_ingredient" required>
       <div class="valid-feedback">Valide.</div>
       <div class="invalid-feedback">Veuillez renseigner correctement ce champ.</div>
     </div>
     <div class="form-group">
       <label for="quantite_ingredient">Quantité :</label>
-      <input type="text" class="form-control" id="quantite_ingredient" placeholder="Entrez la quantité" name="quantite_ingredient" required>
+      <input type="number" class="form-control" id="quantite_ingredient" placeholder="Entrez la quantité (mg/ml)" name="quantite_ingredient" required>
       <div class="valid-feedback">Valide.</div>
       <div class="invalid-feedback">Veuillez renseigner correctement ce champ.</div>
     </div> 

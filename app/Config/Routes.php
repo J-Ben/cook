@@ -47,6 +47,8 @@ $routes->get('ingredient/all', 'Ingredient::all');
 $routes->group('recette', function($routes){
 	$routes->add('add','Recette::index'); 
 	$routes->add('all','Recette::all');  
+	$routes->add('mk','Recette::mk');  
+	$routes->add('bmk','Recette::bmk');  
 });
 	
 /**

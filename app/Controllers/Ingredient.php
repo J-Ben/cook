@@ -18,4 +18,6 @@ class Ingredient extends BaseController
     { 
         echo view('ingredient/ingredient_all'); 
     }
+
+    
 }
