@@ -2,26 +2,26 @@
 
 namespace App\Controllers;
 
-class Recette extends BaseController
+class Ingredient extends BaseController
 {
     public function index()
     {
         echo view('header');
-        echo view('recette_add');
+        echo view('ingredient_add');
         echo view('footer');
     }
 
     public function add()
     {
         echo view('header');
-        echo view('recette_add');
+        echo view('ingredient_add');
         echo view('footer');
     }
 
     public function all()
     {
         echo view('header');
-        echo view('recette_all');
+        echo view('ingredient_all');
         echo view('footer');
     }
 }

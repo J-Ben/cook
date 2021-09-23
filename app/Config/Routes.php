@@ -31,7 +31,25 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories. 
-$routes->get('/', 'Recette::index');
+/**
+ * 
+ *  Routes de Recete
+ */
+
+$routes->group('Recette', function($routes){
+	$routes->add('add','Recette::index'); 
+	$routes->add('all','Recette::all');  
+});
+	
+/**
+ * 
+ *  Routes de Recete
+ */
+
+$routes->group('Ingredient', function($routes){
+	$routes->add('add','Ingredient::index'); 
+	$routes->add('all','Ingredient::all');  
+});
 
 /*
  * --------------------------------------------------------------------
