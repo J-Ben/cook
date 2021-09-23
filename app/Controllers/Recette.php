@@ -4,24 +4,30 @@ namespace App\Controllers;
 
 class Recette extends BaseController
 {
-    public function index()
-    {
-        echo view('header');
-        echo view('recette_add');
-        echo view('footer');
+    public function index($page_title=null,$content_title=null)
+    { 
+        $data = [
+			'page_title' => $page_title,
+			'content_title' => $content_title
+		];
+        echo view('recette_add', $data); 
     }
 
-    public function add()
-    {
-        echo view('header');
-        echo view('recette_add');
-        echo view('footer');
+    public function add($page_title=null,$content_title=null)
+    { 
+        $data = [
+			'page_title' => $page_title,
+			'content_title' => $content_title
+		];
+        echo view('recette_add', $data); 
     }
 
-    public function all()
-    {
-        echo view('header');
-        echo view('recette_all');
-        echo view('footer');
+    public function all($page_title=null,$content_title=null)
+    { 
+        $data = [
+			'page_title' => $page_title,
+			'content_title' => $content_title
+		];
+        echo view('recette_all', $data);  
     }
 }
