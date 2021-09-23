@@ -4,30 +4,18 @@ namespace App\Controllers;
 
 class Ingredient extends BaseController
 {
-    public function index($page_title=null,$content_title=null)
+    public function index()
     { 
-        $data = [
-			'page_title' => $page_title,
-			'content_title' => $content_title
-		];
-        echo view('ingredient_add', $data); 
+        echo view('ingredient_add'); 
     }
 
-    public function add($page_title=null,$content_title=null)
+    public function add()
     { 
-        $data = [
-			'page_title' => $page_title,
-			'content_title' => $content_title
-		];
-        echo view('ingredient_add', $data); 
+        echo view('ingredient_add'); 
     }
 
-    public function all($page_title=null,$content_title=null)
+    public function all()
     { 
-        $data = [
-			'page_title' => $page_title,
-			'content_title' => $content_title
-		];
-        echo view('ingredient_all', $data);  
+        echo view('ingredient_all'); 
     }
 }
