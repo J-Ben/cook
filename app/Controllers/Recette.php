@@ -35,12 +35,21 @@ class Recette extends BaseController
                 */ 
     }
 
-    public function bmk()
+    public function bmk_all()
     {
         $recette = new RecetteModel();
-        $data[] = $recette->findAll();
+        $data["recettes"] = $recette->findAll();
 
-        echo view('recette/recette_all', $data);
+        echo view('recette/recette_bmk_all', $data);
+
+    }
+
+    public function bmk_by_id($id)
+    {
+        $recette = new RecetteModel();
+        $data["recettes"] = $recette->find($id);
+ 
+        echo view('recette/recette_bmk_by_id', $data);
 
     }
 }

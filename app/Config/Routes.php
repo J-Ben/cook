@@ -49,6 +49,8 @@ $routes->group('recette', function($routes){
 	$routes->add('all','Recette::all');  
 	$routes->add('mk','Recette::mk');  
 	$routes->add('bmk','Recette::bmk');  
+	$routes->add('bmk','Recette::bmk');  
+	$routes->add('bmk','Recette::bmk');  
 });
 	
 /**

@@ -1,0 +1,123 @@
+ERROR - 2021-09-24 04:42:15 --> Error connecting to the database: Base 'cook' inconnue
+CRITICAL - 2021-09-24 04:42:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Base 'cook' inconnue
+#0 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(41): CodeIgniter\BaseModel->findAll()
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-24 04:50:43 --> Error connecting to the database: Base 'cook' inconnue
+CRITICAL - 2021-09-24 04:50:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Base 'cook' inconnue
+#0 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(41): CodeIgniter\BaseModel->findAll()
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-24 04:51:00 --> Undefined variable: data
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wampS\\www\\co...', 18, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(43): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-24 05:13:00 --> Undefined variable: data
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wampS\\www\\co...', 18, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(43): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-24 05:14:27 --> Undefined variable: data
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wampS\\www\\co...', 18, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(43): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-24 05:14:30 --> Undefined variable: data
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wampS\\www\\co...', 18, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(43): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-24 05:14:34 --> Undefined variable: data
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wampS\\www\\co...', 18, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(43): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-24 05:28:08 --> Undefined variable: data
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wampS\\www\\co...', 18, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(43): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-24 05:33:19 --> Cannot use object of type stdClass as array
+#0 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#3 C:\wampS\www\cook\app\Controllers\Recette.php(48): view('recette/recette...', Array)
+#4 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 05:39:44 --> Cannot use object of type stdClass as array
+#0 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#3 C:\wampS\www\cook\app\Controllers\Recette.php(48): view('recette/recette...', Array)
+#4 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 05:40:37 --> Undefined variable: recettes
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wampS\\www\\co...', 18, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(48): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

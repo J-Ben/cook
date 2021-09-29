@@ -19,8 +19,8 @@
         Recette
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="../recette/add">Ajouter</a>
-        <a class="dropdown-item" href="../recette/all">Lister</a> 
+        <a class="dropdown-item" href="<?= base_url('/recette/add')?>">Ajouter</a>
+        <a class="dropdown-item"  href="<?= base_url('/recette/all')?>">Lister</a> 
       </div>
     </li>
      <!-- Dropdown -->
@@ -29,8 +29,8 @@
         Ingredient
       </a>
       <div class="dropdown-menu">
-      <a class="dropdown-item" href="../ingredient/add">Ajouter</a>
-        <a class="dropdown-item" href="../ingredient/all">Lister</a> 
+      <a class="dropdown-item"  href="<?= base_url('/ingredient/add')?>" >Ajouter</a>
+        <a class="dropdown-item"  href="<?= base_url('/ingredient/all')?>" >Lister</a> 
       </div>
     </li>
   </ul>

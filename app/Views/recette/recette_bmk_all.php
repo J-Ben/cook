@@ -14,13 +14,13 @@
         <th>année</th>
       </tr>
     </thead>
-    <tbody>
-      <?php foreach($data as$row) : ?>
+    <tbody> 
+      <?php foreach($recettes as $recette) : ?>
       <tr>
-        <td><?=$row['id'] ?></td>
-        <td><?=$row['libelle_recette'] ?></td>
-        <td><?=$row['origine_recette'] ?></td>
-        <td><?=$row['annee_recette'] ?></td>
+        <td><?=$recette->id; ?></td>
+        <td><?=$recette->libelle_recette; ?></td>
+        <td><?=$recette->origine_recette; ?></td>
+        <td><?=$recette->annee_recette; ?></td>
       </tr>
       <?php endforeach ?>
 

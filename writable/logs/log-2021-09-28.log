@@ -1,0 +1,33 @@
+CRITICAL - 2021-09-28 03:22:48 --> Trying to get property 'id' of non-object
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wampS\\www\\co...', 20, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(48): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk()
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 06:34:37 --> Trying to get property 'id' of non-object
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk_by_id.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wampS\\www\\co...', 20, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(52): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk_by_id('1')
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 07:49:26 --> Trying to get property 'id' of non-object
+#0 C:\wampS\www\cook\app\Views\recette\recette_bmk_by_id.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wampS\\www\\co...', 27, Array)
+#1 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wampS\\www\\co...')
+#2 C:\wampS\www\cook\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wampS\www\cook\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recette/recette...', Array, true)
+#4 C:\wampS\www\cook\app\Controllers\Recette.php(52): view('recette/recette...', Array)
+#5 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Recette->bmk_by_id('img_avatar6.png')
+#6 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+#7 C:\wampS\www\cook\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wampS\www\cook\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
